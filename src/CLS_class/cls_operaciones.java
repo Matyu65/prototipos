@@ -11,7 +11,9 @@ import javax.swing.JOptionPane;
  *
  * @author 3
  */
-public class cls_operaciones {
+public class cls_operaciones 
+{
+    
     ///atributos de la clase
     
     //////atributos de la clase para el metodo hipotenusa
@@ -38,22 +40,30 @@ public class cls_operaciones {
     */
     public double hipotenusa()
     {
+        /////variable para calcular la hipotenusa
         double hipo=0.0;
-        
+        ///////sentencia try.... para evitar las exepciones
         try 
         {
+            ////////calcular la hipotenusa lado A  elevado al cuadrado +
+            ///////lado B elevado al cuadrado todo condicionado por un radical
+            //////Maht.sqrt(raiz cuadrada)
           hipo=Math.sqrt(((this.ladoA*this.ladoA))+(this.ladoB*this.ladoB));
         } 
         catch (Exception e)
         {
             JOptionPane.showMessageDialog(null,"el resultado esta malo");
         }
-       
+       ///////devolvemos el resultado
         return hipo;
-       
+   
         
     }
     
+    
+    /*Metodo resistencia paralelo
+    este metodo trae consigo la responsabilidad de calcular 
+    */
     public double resistencia_paralelo()
     {
         double total_resistencia=0.0;

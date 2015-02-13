@@ -44,11 +44,11 @@ public class cls_operacionesTest {
     public void testHipotenusa() {
         System.out.println("hipotenusa");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 5;
         double result = instance.hipotenusa();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 5);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -58,11 +58,11 @@ public class cls_operacionesTest {
     public void testResistencia_paralelo() {
         System.out.println("resistencia_paralelo");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 30;
         double result = instance.resistencia_paralelo();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 30);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -72,11 +72,11 @@ public class cls_operacionesTest {
     public void testIntensidad() {
         System.out.println("intensidad");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult =1.0;
         double result = instance.intensidad();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result,1.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -86,11 +86,11 @@ public class cls_operacionesTest {
     public void testGetLadoA() {
         System.out.println("getLadoA");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 3;
         double result = instance.getLadoA();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 3);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      
     }
 
     /**
@@ -99,11 +99,11 @@ public class cls_operacionesTest {
     @Test
     public void testSetLadoA() {
         System.out.println("setLadoA");
-        double ladoA = 0.0;
+        double ladoA = 3;
         cls_operaciones instance = new cls_operaciones();
         instance.setLadoA(ladoA);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -113,11 +113,11 @@ public class cls_operacionesTest {
     public void testGetLadoB() {
         System.out.println("getLadoB");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 4;
         double result = instance.getLadoB();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 4);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -126,11 +126,11 @@ public class cls_operacionesTest {
     @Test
     public void testSetLadoB() {
         System.out.println("setLadoB");
-        double ladoB = 0.0;
+        double ladoB = 4;
         cls_operaciones instance = new cls_operaciones();
         instance.setLadoB(ladoB);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -140,11 +140,11 @@ public class cls_operacionesTest {
     public void testGetResis1() {
         System.out.println("getResis1");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 10;
         double result = instance.getResis1();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 10);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -153,11 +153,11 @@ public class cls_operacionesTest {
     @Test
     public void testSetResis1() {
         System.out.println("setResis1");
-        double resis1 = 0.0;
+        double resis1 = 10;
         cls_operaciones instance = new cls_operaciones();
         instance.setResis1(resis1);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -167,11 +167,11 @@ public class cls_operacionesTest {
     public void testGetResis2() {
         System.out.println("getResis2");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 10;
         double result = instance.getResis2();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 10);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -180,11 +180,11 @@ public class cls_operacionesTest {
     @Test
     public void testSetResis2() {
         System.out.println("setResis2");
-        double resis2 = 0.0;
+        double resis2 = 10;
         cls_operaciones instance = new cls_operaciones();
         instance.setResis2(resis2);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -194,11 +194,11 @@ public class cls_operacionesTest {
     public void testGetResis3() {
         System.out.println("getResis3");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 10;
         double result = instance.getResis3();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result,10);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -207,11 +207,11 @@ public class cls_operacionesTest {
     @Test
     public void testSetResis3() {
         System.out.println("setResis3");
-        double resis3 = 0.0;
+        double resis3 = 10;
         cls_operaciones instance = new cls_operaciones();
         instance.setResis3(resis3);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -221,24 +221,24 @@ public class cls_operacionesTest {
     public void testGetVoltaje() {
         System.out.println("getVoltaje");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 30;
         double result = instance.getVoltaje();
-        assertEquals(expResult, result, 0.0);
+        assertEquals(expResult, result, 30);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
      * Test of setVoltaje method, of class cls_operaciones.
      */
     @Test
-    public void testSetVoltaje() {
+    public void testSetVoltaje()
+    {
         System.out.println("setVoltaje");
-        double voltaje = 0.0;
+        double voltaje = 30;
         cls_operaciones instance = new cls_operaciones();
         instance.setVoltaje(voltaje);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      
     }
 
     /**
@@ -248,11 +248,10 @@ public class cls_operacionesTest {
     public void testGetResistotal() {
         System.out.println("getResistotal");
         cls_operaciones instance = new cls_operaciones();
-        double expResult = 0.0;
+        double expResult = 30;
         double result = instance.getResistotal();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        assertEquals(expResult, result, 30);
+        
     }
 
     /**
@@ -261,11 +260,10 @@ public class cls_operacionesTest {
     @Test
     public void testSetResistotal() {
         System.out.println("setResistotal");
-        double resistotal = 0.0;
+        double resistotal = 30;
         cls_operaciones instance = new cls_operaciones();
         instance.setResistotal(resistotal);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     
 }
